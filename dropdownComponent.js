@@ -24,7 +24,6 @@ export function createSearchableDropdown({
   input.setAttribute('placeholder', placeholder);
   input.setAttribute('autocomplete', 'on');
 
-
   // Dropdown menu
   const menu = document.createElement('div');
   menu.className = 'dropdown-menu w-100 shadow';
